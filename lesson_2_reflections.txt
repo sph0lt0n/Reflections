@@ -15,4 +15,60 @@ Files 'in' the staging area represents a metadata concept only. The files
 don't actually exist in a staging area, only the concept that they exist in a
 staging area exists. 
 
+----
+How can you use the staging area to make sure you have one commit per logical change?
 
+By including only the files in the staging agea that are logically/conceptually
+related to the conceptual change. 
+
+----
+What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+
+
+Experimental changes, refoctoring, not sure if a strategy would work.
+
+----
+How do the diagrams help you visualize the branch structure?
+
+showing relationship between commits, branches, and parents.
+
+----
+
+Adding color:
+   add color and solid attributes to class Sprite.
+   in draw method, 
+      set strokeStyle and fillStyle to color
+      call context fill. 
+
+
+   add color to ship by setting attributes
+   this.color = 'navy'; 
+   this.solid = true;
+
+      also set exhaust color...
+
+   set color for asteroid the same way.
+
+   also for expl;osions. 
+
+
+
+   adding coins:
+      sets collidesWith 
+
+   added coin prototype
+
+
+----
+What is the result of merging two branches together? Why do we represent
+it in the diagram the way we do? 
+
+The master (resulting) branch contains all changes from both branches. 
+
+----
+What are the pros and cons of Git’s automatic merging vs. always doing
+merges manually?
+
+Auto merges are faster, but perhaps more error-prone. 
+
+                  
