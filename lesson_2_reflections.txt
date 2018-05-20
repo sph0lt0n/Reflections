@@ -1,0 +1,18 @@
+Lesson 2 Problem set 1
+
+Commit 547f4171a82ec6429d002c1acef357aec41d3f17 introduced the sprite bug. 
+
+What happens when you initialize a repository? Why do you need to do it?
+
+- .git directory with content created.
+- files in pwd remain, but not necessarily tracked. 
+
+----
+How is the staging area different from the working directory and the
+repository? What value do you think it offers? 
+
+Files 'in' the staging area represents a metadata concept only. The files
+don't actually exist in a staging area, only the concept that they exist in a
+staging area exists. 
+
+
