@@ -10,5 +10,14 @@ Git automatically stay up-to-date with your remote repository?
 
 Avoid changes made by others. 
 
+----
+Describe the differences between forks, clones, and branches. When would
+you use one instead of another?
+
+Use fork to make a private copy of someone elses GitHub repository.
+Use clone to make a new copy of an existing repository.
+Use branch to create a private stream within an existing repository
+
+
 
 
