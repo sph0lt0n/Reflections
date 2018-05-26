@@ -14,10 +14,32 @@ Avoid changes made by others.
 Describe the differences between forks, clones, and branches. When would
 you use one instead of another?
 
-Use fork to make a private copy of someone elses GitHub repository.
-Use clone to make a new copy of an existing repository.
+Use fork to make a private GitHub copy of someone elses GitHub repository.
+Use clone to make a new copy of an existing repository. The source can
+be either a local (or remote) git repository, or a GitHub repository.
 Use branch to create a private stream within an existing repository
 
+----
+What is the benefit of having a copy of the last known state of the
+remote stored locally?
+
+continue to work off-line
+isolation from changes in a busy repository.
+ability to create multiole commits in a private stream.
 
 
+
+----
+How would you collaborate without using Git or GitHub? What would be
+easier, and what would be harder?
+
+The tool enforces a process, which may not be the process people would
+select. To the extent Git/GitHub fails to adhere to the process people
+choose to use, it would be inefficient. 
+
+----
+When would you want to make changes in a separate branch rather than
+directly in master? What benefits does each approach have?
+
+Changes in a seperate brance keeps master pure, and limits the deltas. 
 
